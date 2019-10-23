@@ -1,23 +1,25 @@
-// Andmetüübid
+// Logid konsoolile
 
-// Täisarvud
-console.log(10);
-console.log(-4);
+// Logid
+console.log('123');
 
-// Reaalarvud - ujukomaarvud
-console.log(2.5);
-console.log(0.20);
-
-// Sõned - tekst
-console.log('Hello world');
-
-// Tõeväärtus
-console.log(true);
-console.log(false);
-
-// Nimekirjad
-console.log([1, 2, 3, 4 , 5]);
-
-// Objektid
-console.log({a : 1, b : 2});
+// Tabel
 console.table({a : 1, b : 2});
+
+// Veateade
+console.error('See on viga');
+
+// Märkused
+console.warn('See on märkus');
+
+// Ajakulu kontroll
+console.time('Test');
+    console.log('Mingi tegevus');
+    console.log('Mingi tegevus');
+    console.log('Mingi tegevus');
+    console.log('Mingi tegevus');
+    console.log('Mingi tegevus');
+console.timeEnd('Test');
+
+// Kusututamine
+console.clear();
