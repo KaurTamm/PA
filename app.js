@@ -1,9 +1,15 @@
 // function
 
 function pindala(pikkus, laius){
-    let lause = 'Ristküliku pindala on ' + pikkus * laius;
-    return lause;
+    let pindala = pikkus * laius;
+    return pindala;
 }
 
-vastus = pindala(2, 5);
-console.log(vastus)
+function valjasta(pikkus, laius){
+    console.log('Pikkus = ' + pikkus);
+    console.log('Laius = ' + laius);
+    let vastus = pindala(pikkus, laius);
+    console.log('Pindala = ' + vastus);
+}
+
+valjasta(5, 5);
