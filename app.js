@@ -1,12 +1,9 @@
 // function
 
-function evenCheck(arv){
-    let jaak = arv % 2;
-    if(jaak === 0){
-        console.log(arv + ' on paaris')
-    } else{
-        console.log(arv + ' on paaritu')
-    }
+function pindala(pikkus, laius){
+    let lause = 'Ristküliku pindala on ' + pikkus * laius;
+    return lause;
 }
 
-evenCheck()
+vastus = pindala(2, 5);
+console.log(vastus)
