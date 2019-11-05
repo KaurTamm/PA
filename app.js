@@ -1,16 +1,15 @@
-//Tsüklid
+// function
 
-//while
-let number = 5;
-let jagaja = 2;
+//defineerimine
+let arv = 5;
 
-while(number % jagaja != 0){
-    console.log(number % jagaja);
-    jagaja++;
-}
+//arvutus
+let jaak = arv % 2;
 
-if(number == jagaja){
-    console.log(number + ' on algarv');
+//võrdlus
+
+if(jaak === 0){
+    console.log(arv + ' on paaris')
 } else{
-    console.log(number+ ' ei ole algarv');
+    console.log(arv + ' on paaritu')
 }
